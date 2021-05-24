@@ -1,6 +1,6 @@
 var ipad = navigator.userAgent.match(/iPad/i) != null;
 
-if (ipad) { //lets try it 2
+if (ipad) { //lets try
   $(function () {
     $('#left-controls, #right-controls').show();
     $('body > *').hide();
